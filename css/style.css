@@ -299,7 +299,7 @@ svg {
   background-color: var(--bcg-design-color);
 }
 .design__text {
-  font-size: 700;
+  font-size: 14px;
   text-align: center;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -641,12 +641,13 @@ svg {
   width: 30px;
   height: 30px;
   box-shadow: none;
-  background-color: #ffffff;
+  background-color: #fff;
   border: none;
 }
 .modal__button-close:hover .modal__icon-close {
   fill: var(--logo-main-color);
 }
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
