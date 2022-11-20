@@ -640,8 +640,9 @@ svg {
   right: 10px;
   width: 30px;
   height: 30px;
-  border: none;
+  box-shadow: none;
   background-color: #ffffff;
+  border: none;
 }
 .modal__button-close:hover .modal__icon-close {
   fill: var(--logo-main-color);
@@ -701,7 +702,7 @@ svg {
   height: 120px;
   resize: none;
   margin-bottom: 20px;
-  padding: 16px;
+  padding-left: 16px;
 }
 .modal__form-agreement {
   display: flex;
